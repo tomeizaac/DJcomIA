@@ -1,0 +1,58 @@
+.heading{
+    width: 100%;
+    color: white;
+    margin: 0%;
+    padding: 12px;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_speed_img{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.div_volume{
+    float: right;
+}
+
+.div_volume_img{
+    width:300px;
+    border-radius: 150px;
+}
+
+canvas {
+    animation-name: luz;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes luz{
+    
+    0% {
+      box-shadow: 1px 1px 50px  red;
+  }
+  14% {
+      box-shadow: 1px 1px 50px  orange;
+  }
+  28% {
+      box-shadow: 1px 1px 50px  yellow;
+  }
+  42% {
+      box-shadow: 1px 1px 50px  rgb(47, 255, 0);
+  }
+  57% {
+      box-shadow: 1px 1px 50px  rgb(45, 146, 255);
+  }
+  71% {
+      box-shadow: 1px 1px 50px  rgb(195, 0, 255);
+  }
+  85% {
+    box-shadow: 1px 1px 50px  rgb(255, 141, 255);
+}
+100% {
+    box-shadow: 1px 1px 50px  red;
+}
+}
